@@ -10,18 +10,19 @@ export function Table (){
                 <img className="rounded-full" src="https://github.com/wenblack.png" width={64} height={64} alt="avatar" />
             </section>
         
-            <form className="flex items-center gap-4" >
-                <button className="bg-[#7c3aed] gap-4 items-center justify-center flex text-white  hover:opacity-70 rounded-lg py-4 px-10">
+            <form className="flex mt-8 items-center gap-4" >
+                <button className="bg-[#7c3aed] hidden gap-4 items-center justify-center md:flex lg:flex text-white  hover:opacity-70 rounded-lg py-5 px-12">
                     <IoFilter  ></IoFilter>
                     Filtrar
                 </button>
-                <div className="flex text-gray-700 w-full border gap-8 items-center  border-gray-300 p-4 rounded-lg">
+                <div className="flex text-3xl shadow-lg text-gray-700 w-full border gap-4 items-center  border-gray-300 p-5 rounded-lg">
                     <IoSearch /> 
                     <input 
                         type="text" 
-                        placeholder="Procur por cards, assuntos ou responsáveis ..." 
+                        placeholder="Busque por cards, assuntos ou responsáveis ..." 
                         className="outline-none w-full"
                         />
+                    <button className="lg:hidden md:hidden" type="button"><IoFilter/></button>
                 </div>
             </form>
         </>
