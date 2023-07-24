@@ -7,7 +7,7 @@ import settingsIcon from '@/assets/settings.svg'
 
 export function SideBar () {
     return(
-        <nav className="text-white  pl-14 fixed left-0 top-0 pt-11 pb-14">
+        <nav className="text-white  p-14 ">
             <Image src={iconApp} alt="Logo do site" height={56} width={50} className="logo" />
             
             <ul className=" mt-[6rem] grid gap-[3.6rem] max-w-[11.5rem]">
