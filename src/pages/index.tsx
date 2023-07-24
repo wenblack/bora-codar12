@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div
       id='app'  
-      className={`flex min-h-screen  ${inter.className}`}
+      className={`flex min-h-screen  bg-[#7c3aed] ${inter.className}`}
     >
       <main className='max-h-screen ml-8 pt-16 items-center px-[5vw]  shadow-black shadow-sm mt-4 rounded-tl-[32px] bg-white w-full '>
         <Table/>

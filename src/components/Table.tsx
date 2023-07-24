@@ -1,6 +1,7 @@
 import editIcon from "@/assets/pencil.svg"
 import Image from "next/image"
 import {IoFilter, IoSearch} from 'react-icons/io5'
+import { Button } from "@/components/ui/button"
 
 export function Table (){
     return(
@@ -10,7 +11,7 @@ export function Table (){
                 <img className="rounded-full" src="https://github.com/wenblack.png" width={64} height={64} alt="avatar" />
             </section>
         
-            <form className="flex mt-8 items-center gap-4" >
+            <form className="flex mt-8 items-center gap-4 text-2xl" >
                 <button className="bg-[#7c3aed] hidden gap-4 items-center justify-center md:flex lg:flex text-white  hover:opacity-70 rounded-lg py-5 px-12">
                     <IoFilter  ></IoFilter>
                     Filtrar
