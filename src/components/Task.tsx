@@ -28,7 +28,7 @@ export function Task ({content, title, tagOne, tagTwo}:cardProps){
                 </p>
             </CardContent>
             
-            <CardFooter className="flex justify-around">
+            <CardFooter className="flex gap-4  flex-col md:flex-row justify-around">
                 {tagOne ===undefined ?<></>:<Tag value={tagOne}/>}
                 {tagTwo ===undefined ?<></>:<Tag value={tagTwo}/>}
               

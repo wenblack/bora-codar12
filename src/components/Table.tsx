@@ -28,59 +28,47 @@ export function Table (){
             </form>
 
 
-            <section className="kanban grid mt-32 grid-cols-3 space-x-8">
-            <div className="todo grid ">
+            <section className="kanban grid mt-32 grid-cols-3 space-x-8  mb-16">
+            <div className="todo grid  ">
               <h2 className="font-bold text-3xl mb-8">A fazer</h2>
-              <div className="cards">
+              <div className=" flex flex-col  gap-6">
                 <Task 
                     title="#boraCodar um Kanban 🧑🏾‍💻"
                     content="Novo desafio do #boraCodar da Rocketseat, onde é proposto
                     construir um quadro de Kanban."
-                    tagOne="adas"
-                    tagTwo="asdas"
+                    tagOne="rocketseat"
+                    tagTwo="desafio"
                 />
-                <div className="card">
-                  <h3>Manter a ofensiva 🔥</h3>
-                  <p>
-                    Manter minha atividade na plataforma da Rocketseat para não
-                    perder a ofensiva
-                  </p>
-                  <div className="tags">
-                    <span>rocketseat</span>
-                  </div>
-                </div>
+                <Task 
+                    title="Manter a ofensiva 🔥"
+                    content=" Manter minha atividade na plataforma da Rocketseat para não
+                    perder a ofensiva"
+                    tagOne="rocketseat"
+                />
               </div>
             </div>
             <div className="doing   ">
               <h2 className="font-bold text-3xl mb-8">Fazendo</h2>
-              <div className="cards">
-                <div className="card">
-                  <h3>Conferir o novo desafio 🚀</h3>
-                  <p>
-                    Conferir o novo projeto do #boraCodar para fazê-lo da melhor
-                    maneira possível
-                  </p>
-                  <div className="tags">
-                    <span>rocketseat</span>
-                    <span>desafio</span>
-                  </div>
-                </div>
+              <div className="flex flex-col  gap-6">
+                <Task
+                  title="Conferir o novo desafio 🚀"
+                  content="Conferir o novo projeto do #boraCodar para fazê-lo da melhor
+                    maneira possível"
+                    tagOne="rocketseat"
+                    tagTwo="desafio"
+                />
               </div>
         </div>
             <div className="done ">
               <h2 className="font-bold text-3xl mb-8">Feito</h2>
-              <div className="cards">
-                <div className="card">
-                  <h3>#boraCodar uma página de login 🧑‍💻</h3>
-                  <p>
-                    Novo desafio do #boraCodar da Rocketseat, onde é proposto
-                    construir uma página de login.
-                  </p>
-                  <div className="tags">
-                    <span>rocketseat</span>
-                    <span>desafio</span>
-                  </div>
-                </div>
+              <div className="flex flex-col gap-6">
+                <Task
+                  title="#boraCodar uma página de login 🧑‍💻"
+                  content="Novo desafio do #boraCodar da Rocketseat, onde é proposto
+                    construir uma página de login."
+                    tagOne="desafio"
+                    tagTwo="rocketseat"
+                />
               </div>
         </div>
           </section>

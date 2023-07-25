@@ -10,7 +10,7 @@ export default function Home() {
       id='app'  
       className={`flex min-h-screen  bg-[#7c3aed] ${inter.className}`}
     >
-      <main className='max-h-screen ml-8 pt-16 items-center px-[5vw]  shadow-black shadow-sm mt-4 rounded-tl-[32px] bg-white w-full '>
+      <main className='min-h-screen ml-0 md:ml-8 pt-16 items-center px-[5vw]  shadow-black shadow-sm mt-4 rounded-tl-[32px] bg-white w-full '>
         <Table/>
       </main>
     </div>
