@@ -10,12 +10,11 @@ import { Tag } from "./Tag"
 interface cardProps{
     title:string
     content:string,
-    hasTags?:boolean
     tagOne?:string
     tagTwo?:string
 }
 
-export function Task ({content, title, tagOne, tagTwo}:cardProps){
+export function Task ({content, title, tagOne,tagTwo}:cardProps){
     return(
         <Card className="w-full max-w-[300px] shadow-xl">
             <CardHeader>
